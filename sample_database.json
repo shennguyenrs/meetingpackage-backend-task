@@ -1,0 +1,33 @@
+[
+    {
+        "_id": "atm",
+        "name": "antman the hostel",
+        "websites": [
+            { 
+                "_id": "abccom",
+                "name": "abc.com", 
+                "room_types": 
+                    [
+                        {
+                            "_id": "small",
+                            "name": "small",
+                            "prices": {"normal": 100, "peak": 140},
+                            "peak_hours": [12, 14, 15]
+                        },
+                        {
+                            "_id": "medium",
+                            "name": "medium",
+                            "prices": {"normal": 100, "peak": 140},
+                            "peak_hours": [12, 14, 15]
+                        },
+                        {
+                            "_id": "large",
+                            "name": "large",
+                            "prices": {"normal": 100, "peak": 140},
+                            "peak_hours": [12, 14, 15]
+                        }
+                    ]
+            }
+        ]
+    }
+]
